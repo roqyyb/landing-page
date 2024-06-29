@@ -13,6 +13,44 @@ a {
 section {
   max-width: 1240px;
   margin: 0 auto;
-  border: 2px solid red;
   padding: 50px 0;
+}
+
+/* Hero */
+
+section.hero {
+  padding-top: 8px;
+}
+
+.hero header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero .nav-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border: 1px solid coral;
+  width: 100%;
+  padding: 0 16px;
+}
+
+#logo {
+  margin-right: auto;
+  color: green;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.nav-link {
+  font-size: 18px;
+  border: 1px solid green;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
 }
