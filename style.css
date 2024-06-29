@@ -15,6 +15,9 @@ section {
   margin: 0 auto;
   padding: 50px 0;
 }
+button {
+  border: none;
+}
 
 /* Hero */
 
