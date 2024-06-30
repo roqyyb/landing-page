@@ -110,3 +110,37 @@ section.hero-wrapper {
   font-size: 18px;
   margin: 0.5rem 0;
 }
+
+/* INFO */
+
+.info-wrapper {
+  padding-top: 50px;
+}
+
+.info .title {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-size: 20px;
+}
+
+.info .cards {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+}
+
+.info .img {
+  height: 150px;
+  border: 2px solid #3882f6;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+.info .card {
+  flex: 1;
+  flex-basis: 150px;
+  flex-grow: 0;
+}
+.info .text {
+  text-align: center;
+}
