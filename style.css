@@ -11,9 +11,11 @@ a {
   text-decoration: none;
 }
 section {
+  padding: 100px;
+}
+.center {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 100px;
 }
 button {
   border: none;
@@ -21,11 +23,11 @@ button {
 
 /* Hero */
 
-.hero {
+.hero-wrapper {
   background-color: #1f2937;
 }
 
-section.hero {
+section.hero-wrapper {
   padding-top: 8px;
 }
 
