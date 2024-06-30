@@ -90,3 +90,7 @@ section.hero {
   color: #ffffff;
   margin-top: 0.5rem;
 }
+
+.banner .title {
+  color: white;
+}
