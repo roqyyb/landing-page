@@ -57,3 +57,35 @@ section.hero {
   align-items: center;
   font-weight: 600;
 }
+
+/* ---> Banner */
+.banner {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.banner .content,
+.banner .img {
+  flex: 1;
+}
+
+.banner .img {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #999898;
+  color: white;
+  flex-grow: 2;
+}
+
+.banner button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #3882f6;
+  color: #ffffff;
+  margin-top: 0.5rem;
+}
