@@ -144,3 +144,22 @@ section.hero-wrapper {
 .info .text {
   text-align: center;
 }
+
+/* QUOTE */
+.quote-wrapper {
+  background-color: #e5e7eb;
+}
+.quote {
+  max-width: 600px;
+}
+.quote .text {
+  font-size: 36px;
+  font-style: italic;
+  margin-bottom: 1rem;
+  font-weight: xx-small;
+}
+.quote .author {
+  text-align: right;
+  font-weight: bolder;
+  font-size: 18px;
+}
