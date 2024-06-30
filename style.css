@@ -102,3 +102,9 @@ section.hero {
 .banner .title {
   color: white;
 }
+
+.banner .text {
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 0.5rem 0;
+}
