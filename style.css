@@ -13,13 +13,17 @@ a {
 section {
   max-width: 1240px;
   margin: 0 auto;
-  padding: 50px 0;
+  padding: 100px;
 }
 button {
   border: none;
 }
 
 /* Hero */
+
+.hero {
+  background-color: #1f2937;
+}
 
 section.hero {
   padding-top: 8px;
@@ -34,14 +38,11 @@ section.hero {
   display: flex;
   align-items: center;
   gap: 16px;
-  border: 1px solid coral;
   width: 100%;
-  padding: 0 16px;
 }
 
 #logo {
   margin-right: auto;
-  color: green;
   font-weight: 900;
   font-size: 24px;
 }
