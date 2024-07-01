@@ -196,3 +196,11 @@ section.hero-wrapper {
   border: 1px solid white;
   color: white;
 }
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 8px 0;
+  background-color: #1f2937;
+  color: white;
+}
