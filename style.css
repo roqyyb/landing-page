@@ -163,3 +163,36 @@ section.hero-wrapper {
   font-weight: bolder;
   font-size: 18px;
 }
+
+/* CTA */
+
+.cta {
+  padding: 50px 100px;
+  background-color: #3882f6;
+  border-radius: 8px;
+}
+
+.cta .title {
+  font-weight: 600;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 0.2rem;
+}
+
+.cta .flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cta .text {
+  color: #e5e7eb;
+  margin-bottom: 0.2rem;
+}
+
+.cta button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
